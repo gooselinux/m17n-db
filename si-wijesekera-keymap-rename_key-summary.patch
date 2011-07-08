@@ -1,0 +1,26 @@
+--- si-wijesekera-preedit.mim.orig	2007-05-29 14:44:23.000000000 +0530
++++ si-wijesekera-preedit.mim	2008-08-29 09:35:17.000000000 +0530
+@@ -21,11 +21,21 @@
+ ;; Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ ;; Boston, MA 02110-1301, USA.
+ 
+-(input-method si wijesekera-preedit)
++(input-method si wijesekera)
+ 
+ (description "Sinhala input method based on SLS 1134 Rev. 2:2004.
+   <http://www.fonts.lk/doc/sin-kbd-layout4.pdf>
+ This input method uses preedit rather than surrounding text.
++
++Key Summary :
++ඳ      -->     alt-gr+o
++ඟ      -->     alt-gr+.
++ඬ      -->     alt-gr+v
++ඦ      -->     alt-gr+c
++ඃ      -->     alt-gr+x
++෴      -->     alt-gr+'
++
++Key summary: Tyronne Wickramarathne <tywickra@redhat.com>
+ ")
+ 
+ (title "සි")
+
